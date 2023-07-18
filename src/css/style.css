@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .dark-890{
+    --tw-bg-opacity: 1!important;
+    background-color: rgba(14,35,56,var(--tw-bg-opacity))!important;
+}
+.dark-920 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(27,49,76,var(--tw-bg-opacity));
+}
+.dark-890 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(14,35,56,var(--tw-bg-opacity));
+}
+.dark-910 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(12,36,63,var(--tw-bg-opacity));
+} */
+/* .white{
+   color:#fff !important;
+
+} */
+@layer components{
+    .a-subMenu {
+        @apply text-dark-550  text-lg inline-block w-full hover:bg-grey-200 pr-3 py-4 rounded-md dark:text-white dark:hover:bg-dark-900;
+    }
+}
+@font-face {
+    font-family: Vazirmatn;
+    src: url("fonts/Vazirmatn-Medium.eot"), url("fonts/Vazirmatn-Medium.woff"),
+      url("fonts/Vazirmatn-Medium.woff2 format('woff2')"),
+      url("fonts/Vazirmatn-Thin.ttf"), url("fonts/Vazirmatn-Light.ttf"),
+      url("fonts/Vazirmatn-Thin.woff2"), url("fonts/Vazirmatn-Light.woff2");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+/* .swiper-slide.swiper-slide-active{
+    background:#fff;
+    border-radius: 24px;
+  } */
+  /* .swiper-slide {
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+} */

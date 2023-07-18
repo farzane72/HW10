@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/css/style.css -o ./public/build.css --watch "
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "swiper": "^10.0.4",
+    "tailwind": "^4.0.0"
+  }
+}

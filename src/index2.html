@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تمرین دوم</title>
+    <link rel="stylesheet" href="../public/build.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white shadow-md rounded-md p-2">
+          <h1 class="mb-4 font-bold ">Budget</h1>
+          <input
+            class="border placeholder:text-grey-300 py-2 pl-1 rounded-l-md w-full mb-4 outline-0 placeholder-shown:border-grey-100 focus:outline:border-grey-300\/10"
+            placeholder="Enter Total Amount "
+            type="number"
+            id="input-budget"
+          />
+          <button class="mb-6 bg-blue-950 rounded-md px-4 py-2 text-white" id="set-budget">
+            Set Budget
+          </button>
+        </div>
+        <div class="bg-white shadow-md rounded-md p-2">
+          <!-- <form id="form" action=""> -->
+            <h1 class="mb-4 font-bold">expenses</h1>
+            <input
+              class="border placeholder:text-grey-300 py-2 pl-1 rounded-md w-full mb-4 outline-0 placeholder-shown:border-grey-100 focus:outline:border-grey-300\/10"
+              placeholder="Enter Title Of Product "
+              type="text"
+              id="input-title-expense"
+            />
+            <input
+              class="border placeholder:text-grey-300 py-2 pl-1 rounded-l-md w-full mb-4 outline-0 placeholder-shown:border-grey-100 focus:outline:border-grey-300\/10"
+              placeholder="Enter Cost Of Product "
+              type="number"
+              id="input-cost-expense"
+            />
+            <button class="mb-6 bg-blue-950 rounded-md px-4 py-2 text-white" id="check-amount" type="submit">
+              Check Amount
+            </button>
+          <!-- </form> -->
+          
+        </div>
+      </div>
+      <div class="grid grid-cols-3 text-white bg-blue-700 rounded-md p-4 mt-4 ">
+        <!-- <div class="flex col-justify-between"></div> -->
+        <p>TotalBudget</p>
+        <p class="text-center">Expenses</p>
+        <p class="text-end">Balance</p>
+        <p id="total-budget">0</p>
+        <p id="expences" class="text-center">0</p>
+        <p id="balances" class="text-end">0</p>
+      </div>
+    </div>
+    <script src="./js/script2.js"></script>
+  </body>
+</html>
